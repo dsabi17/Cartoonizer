@@ -255,15 +255,18 @@ def add_outline_to_image(image, borders):
 
 os.chdir('photos')
 fnames = os.listdir()
-os.chdir(os.path.dirname(__file__))
-# os.chdir('/mnt/c/Users/dsabi/Desktop/spam/SPG/Tema 2')
 
 for fname in fnames:
+    os.chdir(os.path.dirname(__file__))
+
     image = plt.imread('photos/' + fname, format=None)
     image = image / 255
-    dir = os.path.dirname(__file__) + '/' + fname[:-4]
+    dir = os.path.dirname(__file__) + '/results/' + fname[:-4]
+    os.chdir('results')
+
     if fname[:-4] in os.listdir():
         shutil.rmtree(dir)
+
     os.mkdir(dir)
     plt.imsave(dir + "/1_original_" + fname, image)
 
