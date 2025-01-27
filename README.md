@@ -36,9 +36,11 @@ The script will process each image in the `photos` folder and save the results i
 - **hysteresis_thresholding**: Enhances edge detection using thresholding.
 - **median_cut**: Reduces the number of colors in an image.
 - **add_outline_to_image**: Combines borders with the original image.
+
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title |
 | Paragraph   | First paragraph. <br><br> Second paragraph. |
+
 ![](/assets/diagram.png)
 
