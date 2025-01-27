@@ -3,6 +3,8 @@
 
 This project implements a custom image processing pipeline in Python, designed to perform various image transformations, including median cut color quantization, blurring, grayscale conversion, edge detection, and hysteresis thresholding.
 
+![][/assets/diagram.png]
+
 ## Features
 
 - **Median Cut Color Quantization**: Reduces the number of colors in an image while maintaining visual quality.
