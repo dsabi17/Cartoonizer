@@ -39,8 +39,8 @@ The script will process each image in the `photos` folder and save the results i
 
 | Syntax      | Description |
 | ----------- | ----------- |
-| Header      | Title |
+| ![](/assets/diagram.png)      | Title |
 | Paragraph   | First paragraph. <br><br> Second paragraph. |
 
-![](/assets/diagram.png)
+
 
