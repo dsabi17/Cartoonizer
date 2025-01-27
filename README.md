@@ -37,8 +37,8 @@ The script will process each image in the `photos` folder and save the results i
 - **median_cut**: Reduces the number of colors in an image.
 - **add_outline_to_image**: Combines borders with the original image.
 
-| Syntax      | Description | temp |
-| ----------- | ----------- | -----|
+| | | |
+| ----------- | ----------- | ----------- | 
 | ![](/assets/flowers.jpg) | ![](/assets/friends.jpg) | ![](/assets/green_see.jpg) |
 | ![](/assets/home.jpg) | ![](/assets/lake.jpg) | ![](/assets/leaf.jpg) |
 | ![](/assets/statue.jpg) | ![](/assets/toadstool.jpg) | ![](/assets/trees.jpg) |
